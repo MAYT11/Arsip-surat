@@ -1,0 +1,133 @@
+/* CSS departmen,apengirim surat,data arsip surat*/
+     
+ body {
+            background-color: #f5f5f5; /* Latar belakang krem muda */
+        }
+        .card-header {
+            background-color: #FFFDD0; /* Warna krem */
+            color: #000; /* Teks gelap untuk kontras */
+        }
+        .card-body {
+            background-color: #fff; /* Latar belakang putih untuk form */
+        }
+        .table {
+            background-color: #fff; /* Latar belakang putih untuk tabel */
+        }
+        .btn-primary {
+            background-color: #f2d8b3; /* Warna krem untuk tombol */
+            border: none;
+        }
+        .btn-danger {
+            background-color: #FF0000; /* Warna merah untuk tombol hapus */
+            border: none;
+        }
+        .btn-success{
+            background-color: #32CD32; /* Warna hijau untuk tombol edit */
+            border: none;
+        }
+        .btn:hover {
+            opacity: 0.9;
+        }
+/* CSS home*/
+     
+    body {
+            background-color: #f0f2f5;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .jumbotron-custom {
+            background: linear-gradient(135deg, #495057, #343a40);
+            color: #ffffff;
+            border-radius: 20px;
+            padding: 3rem 2.5rem;
+            margin: 3rem auto;
+            max-width: 800px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        .jumbotron-custom h1, .jumbotron-custom p {
+            color: #ffffff;
+        }
+        .jumbotron-custom h1 {
+            font-size: 3.5rem;
+            font-weight: 300;
+            margin-bottom: 1.5rem;
+        }
+        .jumbotron-custom p.lead {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+        }
+        .btn-custom {
+            background-color: #007bff;
+            border: 2px solid #007bff;
+            color: #ffffff;
+            padding: 0.75rem 2rem;
+            font-size: 1.25rem;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        .btn-custom:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+            color: #ffffff;
+            transform: scale(1.1);
+        }
+        .jumbotron-custom hr {
+            border: 0;
+            height: 1px;
+            background: #6c757d;
+            opacity: 0.7;
+            margin: 2rem 0;
+        }
+/* CSS header*/
+     
+body {
+    font-family: 'Arial', sans-serif; /* Mengubah font menjadi Arial */
+    background-color: #e0f2f1;
+    color: #333;
+}
+
+.navbar {
+    background-color: #004d40;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    transition: color 0.3s ease; /* Animasi saat hover */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #e0f2f1; /* Warna saat hover */
+}
+
+/* Efek hover hanya pada navbar-brand */
+.navbar-dark .navbar-brand:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Warna latar saat hover */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Warna latar saat hover pada nav-link */
+}
+
+.navbar-dark .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.container {
+    margin-top: 20px;
+    max-width: 960px;
+}
+
+footer {
+    background-color: #004d40;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
